@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LOGIN PAGE</title>
+<style>
+#main{
+background-color: rgb(173, 192, 240);
+border: 2px solid navy;
+width:400;
+height:200;
+margin:auto;
+padding:20px;
+}
+h1{
+    text-align: center;
+}
+#class{
+    margin-top:20px;
+    margin-left: 7.5em;
+    margin-bottom:15px;
+}
+#id{
+    margin-top:20px;
+    margin-left:125px;
+}
+.login{
+    color: black;
+    text-decoration: none;
+   margin-left: 170px;
+   border: 2px solid navy;
+}
+#payment{
+    margin-bottom: 20px;
+}
+</style>
+</head>
+<body>
+    <h1><u style="color: navy;">Payment</u></h1>
+<div id="main">
+    <label for="cars"><I>SELECT THE MODE OF TRANSACTION</I></label>
+<select name="payment" id="payment">
+  <option value="volvo">UPI</option>
+  <option value="saab">credit card</option>
+  <option value="mercedes">debit card</option>
+  <option value="audi">Digital Payment</option>
+</select>
+    <form method="post">
+    <label for="username"><i>CARD HOLDER NAME</i></label>
+    &nbsp;&nbsp;<input id="username" placeholder="enter your name" type="text" size="25" required>
+    <label for="class"><i>CVV NO</i></label>
+    &nbsp;&nbsp;<input id="class" placeholder="******" type="password" size="25" required>
+    <div>
+    <a class="login" href="./orders.html">SUBMIT</a>  
+    </div>
+</form>
+</div>
+</body>
+</html>

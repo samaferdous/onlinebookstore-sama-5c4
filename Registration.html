@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        h1{
+            text-align:center;
+            color:navy;
+        }
+        div{
+            background-color: rgb(173, 192, 240);
+            border: 2px solid navy;
+            width:600px;
+            height:500px;
+            margin:auto;
+            padding: 20px;
+        }
+        #id1{
+            margin-left:6em;
+        }
+        #id{
+            margin-left:4em;
+            margin-top: 20px;
+        }
+        #id2{
+            margin-left:4em;
+            margin-top: 20px;
+        }
+        #id3{
+            margin-left:1em;
+            margin-top: 20px;
+        }
+        .id4{
+            margin-left:5.5em;
+            margin-top: 20px;
+        }
+        #id5{
+            margin-left:8em;
+            margin-top: 20px;
+        }
+        #id6{
+            margin-left:2em;
+            margin-top: 20px;
+        }
+        #lang{
+    
+            margin-top: 20px;
+        }
+        #area{
+            margin-left:6em;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #button{
+            margin-left:12em;
+            margin-top: 25px;
+        }
+        .login{
+        color: black;
+        text-decoration: none;
+        margin-left: 10em;
+        border: 2px solid navy;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>Registration</u></h1>
+    <div>
+        <form name="form" method="post"> 
+        <label for="id1"><i>NAME</i></label> &nbsp;
+        <input id="id1" placeholder="enter full name" type="text" size="30" required>
+        <br>
+        <label for="id"><i>PASSWORD</i></label>
+        <input id="id" placeholder="*********" type="password" size="30" maxlength="15" required>
+        <br>
+        <label for="id2"><i>EMAIL ID</i></label>&nbsp; &nbsp;
+        <input id="id2" placeholder="@gmail.com" type="text" size="30" required>
+        <br>
+        <label for="id3"><i>PHONE NUMBER</i></label>
+        <input id="id3" placeholder="##### #####" type="tel" size="10" maxlength="10" required>
+        <BR>
+        <label for="id5"><i>OTP</i></label>
+        <input id="id5"  placeholder="******" type="number" size="10" required>
+        <br>
+        <lable ><i>GENDER</i></lable>
+        <input class="id4" type="radio" name="gender" > MALE
+        <input  type="radio" name="gender" > FEMALE
+        <input  type="radio" name="gender" > Other
+        <br>
+        <label for="id6"><i>DATE OF BIRTH</i></label>
+        <input id="id6" type="date" size="30">
+        <br>
+        <i>KNOWN LANGUAGE</i>
+        <input id="lang" type="checkbox" name="lang" />ENGLISH
+        <input id="lang" type="checkbox" name="lang" />TELUGU
+        <input id="lang" type="checkbox" name="lang" />HINDI
+        <input id="lang" type="checkbox" name="lang" />TAMIL
+        <br>
+        <label><I>ADDRESS</I></label>
+        <textarea id="area" rows="5" cols="25">
+        </textarea>
+        <br>
+        <a href="./home1.html" class="login" >SUBMIT</a>
+        </form>
+    </div>
+</body>
+</html>
